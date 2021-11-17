@@ -6,46 +6,87 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>786</width>
-    <height>486</height>
+    <width>800</width>
+    <height>474</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>AuthPath:Personal 2022</string>
+   <string>AuthPath 2022</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>241</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Arial</family>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string>AuthPath</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButton">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>400</y>
-      <width>111</width>
+      <x>30</x>
+      <y>390</y>
+      <width>80</width>
       <height>22</height>
      </rect>
     </property>
     <property name="text">
-     <string>Добавить </string>
+     <string>Добавить</string>
+    </property>
+   </widget>
+   <widget class="QTableView" name="tableView">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>40</y>
+      <width>711</width>
+      <height>321</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>390</y>
+      <width>101</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Получить Данные</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>390</y>
+      <width>81</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Удалить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_1">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>390</y>
+      <width>47</width>
+      <height>14</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>390</y>
+      <width>80</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Обновить</string>
     </property>
    </widget>
   </widget>
@@ -54,7 +95,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>786</width>
+     <width>800</width>
      <height>21</height>
     </rect>
    </property>

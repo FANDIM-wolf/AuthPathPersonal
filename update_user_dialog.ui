@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Dialog</string>
+   <string>Обновления данных пользователя</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
@@ -125,6 +125,19 @@
    </property>
    <property name="text">
     <string>___________________________________________________________________________________</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_id">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>240</y>
+     <width>47</width>
+     <height>14</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>ID</string>
    </property>
   </widget>
  </widget>

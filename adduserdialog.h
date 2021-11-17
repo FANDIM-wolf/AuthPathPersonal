@@ -2,21 +2,34 @@
 #define ADDUSERDIALOG_H
 
 #include <QDialog>
-
+#include <QtSql>
+#include <QSqlDatabase>
+#include <QSqlDriver>
+#include <QMessageBox>
+#include <QString>
+#include <QTableView>
+#include <QSqlTableModel>
 namespace Ui {
-class AddUserDialog;
+class adduserdialog;
 }
 
-class AddUserDialog : public QDialog
+class adduserdialog : public QDialog
 {
     Q_OBJECT
 
 public:
-    explicit AddUserDialog(QWidget *parent = nullptr);
-    ~AddUserDialog();
+    explicit adduserdialog(QWidget *parent = nullptr);
+    ~adduserdialog();
+
+private slots:
+    void on_pushButton_clicked();
 
 private:
-    Ui::AddUserDialog *ui;
+    Ui::adduserdialog *ui;
+    QSqlDatabase db;
+    QSqlQuery *query ;
+    QSqlTableModel *modal;
+    int row;
 };
 
 #endif // ADDUSERDIALOG_H
