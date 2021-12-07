@@ -8,6 +8,7 @@ adduserdialog::adduserdialog(QWidget *parent) :
     ui->setupUi(this);
 }
 
+
 adduserdialog::~adduserdialog()
 {
     delete ui;
